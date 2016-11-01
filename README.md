@@ -1,10 +1,13 @@
 # MATLAB-Experiments
-Collection of files and classes describing the outcome of an experiment with support for many builtin data types as well as custom classes, e.g. [Videos](https://github.com/alexludwigklein/MATLAB-Videos) and [BeamProfiles](https://github.com/alexludwigklein/MATLAB-BeamProfiles)
+Collection of files and classes describing the outcome of an experiment with support for many MATLAB's builtin 
+data types as well as custom classes, e.g. [Videos](https://github.com/alexludwigklein/MATLAB-Videos) and [BeamProfiles](https://github.com/alexludwigklein/MATLAB-BeamProfiles).
+The purpose of the classes is to make all information of an experiment available in MATLAB, i.e. the control
+parameters of the experiment, the raw data (such as high-speed movies) and the results of the post processing.
 
 ## Installation
 Add the parent directory that holds all @-folders to you local MATLAB path. This task can easily be done
-	with MATLAB's addpath and genpath functions. The code requires the following toolboxes to be installed 
-	(depending on the features used in the [Videos](https://github.com/alexludwigklein/MATLAB-Videos) class:
+	with MATLAB's `addpath` and `genpath` functions. The code requires the following toolboxes to be installed 
+	(depending on the features used in the [Videos](https://github.com/alexludwigklein/MATLAB-Videos) class):
 
 * Optimization Toolbox
 * Signal Processing Toolbox
@@ -13,7 +16,7 @@ Add the parent directory that holds all @-folders to you local MATLAB path. This
 * Curve Fitting Toolbox
 * Computer Vision System Toolbox
 	
-Furthermore, the code makes use of some additional third party tools that can be found on the [file exchange](https://nl.mathworks.com/matlabcentral/fileexchange) or on [GitHub](https://github.com):
+Furthermore, the code makes use of some additional third party tools that can be found on the [file exchange](https://nl.mathworks.com/matlabcentral/fileexchange) or on [GitHub](https://github.com) (again, mostly for the support of the [Videos](https://github.com/alexludwigklein/MATLAB-Videos) and [BeamProfiles](https://github.com/alexludwigklein/MATLAB-BeamProfiles) class) ):
 
 * [TIFFSTack](https://nl.mathworks.com/matlabcentral/fileexchange/32025-dylanmuir-tiffstack) for reading and mapping TIF files to memory
 * [DataHash](https://nl.mathworks.com/matlabcentral/fileexchange/31272-datahash) for creating hash values
@@ -23,4 +26,4 @@ Furthermore, the code makes use of some additional third party tools that can be
 * [SLM Tools](https://nl.mathworks.com/matlabcentral/fileexchange/24443-slm-shape-language-modeling) for Shape Language Modeling (SLM)
 
 ## Usage
-A description is currently not (yet) available
+A description is currently not (yet) available.
